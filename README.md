@@ -1,32 +1,14 @@
-# Chatbot
-AI Based Chatbot
+## 🚀 Project Overview
 
-### Requirements
-    Python = 2.x.x
-    Flask
-    Aiml
-    pip
+An **AI-Based Conversational Chatbot** built with **Python, Flask, and AIML**, designed to provide interactive, rule-based conversations through a browser-based interface.
 
-## Installation
+### ✨ Key Features
 
-1. Clone and navigate to chatbot directory.
+* 🤖 **AIML-powered chatbot engine** for generating rule-based conversational responses.
+* 🌐 **Flask web application** with a browser-based chat interface.
+* 🔄 **2 Flask routes** — `/` for serving the chatbot interface and `/ask` for processing user messages.
+* 📡 **1 POST-based API endpoint** that receives user queries and returns chatbot responses in JSON format.
+* 🧠 **Persistent chatbot brain** using `bot_brain.brn` for faster initialization and reusable AIML knowledge.
+* 📦 Dependency management with **2 core packages: Flask and AIML 0.8.6**.
+* 💻 Lightweight architecture suitable for learning, experimentation, and deployment as a web-based chatbot.
 
-2. Install the required packages.
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Run the python server.
-    ```bash
-    python main.py
-    ```
-4. Open **http://127.0.0.1:5000** in your browser.
-
-5. You're done and let's chat with your Robot via browser.
-
-## Screenshot
-![chatbot](https://user-images.githubusercontent.com/1708683/27002771-68618802-4e0b-11e7-870a-3c05e3f68146.png)
-
-## Author
-
-[Sohel Amin](http://www.sohelamin.com)
